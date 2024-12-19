@@ -1,7 +1,7 @@
 'use client';
 
+import dynamic from 'next/dynamic';
 import Navbar from '@/components/Navbar';
-import { motion } from 'framer-motion';
 
 const fadeInUp = {
   initial: { opacity: 0, y: 20 },
@@ -9,13 +9,17 @@ const fadeInUp = {
   transition: { duration: 0.5, ease: 'easeOut' }
 };
 
+const FlowWithNoSSR = dynamic(() => import('./mollafamilytree'), {
+  ssr: false,
+});
+
 export default function Family() {
   return (
     <>
-      <Navbar />
-      <main className="container mx-auto px-4 py-16">
-        
-      </main>
+    <Navbar/>
+    <main className="min-h-screen ">
+      <FlowWithNoSSR />
+    </main>
     </>
   );
 }
