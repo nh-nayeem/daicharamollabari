@@ -183,7 +183,6 @@ const LayoutFlow = () => {
         edges={edges}
         onNodesChange={onNodesChange}
         onEdgesChange={onEdgesChange}
-        onConnect={onConnect}
         connectionLineType={ConnectionLineType.SmoothStep}
         fitView
         fitViewOptions={{ padding: 0.2 }}
@@ -192,6 +191,7 @@ const LayoutFlow = () => {
         minZoom={0.1}
         maxZoom={1.5}
         defaultZoom={1}
+        nodesDraggable={false}
       >
         <Background />
         <Controls />

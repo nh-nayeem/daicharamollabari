@@ -3,8 +3,8 @@ import { MarkerType, Position } from 'reactflow';
 
 const nodeWidth = 220;  // Match CustomNode width
 const nodeHeight = 50;
-const levelSpacing = 120;  // Increased vertical spacing
-const nodeSpacing = 180;   // Increased horizontal spacing
+const levelSpacing = 60;  // Increased vertical spacing
+const nodeSpacing = 20;   // Increased horizontal spacing
 
 export const layoutElements = (tree, rootId, direction = 'TB') => {
   const nodes = [];
@@ -78,6 +78,10 @@ export const layoutElements = (tree, rootId, direction = 'TB') => {
             target: childId,
             type: 'smoothstep',
             animated: false,
+            markerEnd: {
+              type: MarkerType.ArrowClosed,
+              width: 20, height: 20,
+            },
             style: { stroke: '#94A3B8', strokeWidth: 2 },  // Matching handle color
           });
         });
