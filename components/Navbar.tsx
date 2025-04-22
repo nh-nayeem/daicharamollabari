@@ -40,6 +40,16 @@ export default function Navbar() {
               মোল্লা পরিবার
             </Link>
             <Link
+              href="/panorama"
+              className={`px-3 py-2 rounded-md text-sm font-medium ${
+                pathname === '/panorama'
+                  ? 'bg-green-700 text-white'
+                  : 'text-green-100 hover:bg-green-700'
+              }`}
+            >
+              প্যানোরামা
+            </Link>
+            <Link
               href="/contact"
               className={`px-3 py-2 rounded-md text-sm font-medium ${
                 pathname === '/contact'
@@ -116,6 +126,16 @@ export default function Navbar() {
             }`}
           >
             মোল্লা পরিবার
+          </Link>
+          <Link
+            href="/panorama"
+            className={`block px-3 py-2 rounded-md text-base font-medium ${
+              pathname === '/panorama'
+                ? 'bg-green-700 text-white'
+                : 'text-green-100 hover:bg-green-700'
+            }`}
+          >
+            প্যানোরামা
           </Link>
           <Link
             href="/contact"
