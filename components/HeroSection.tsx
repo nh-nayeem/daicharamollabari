@@ -21,7 +21,7 @@ export default function HeroSection() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl md:text-2xl mb-8"
           >
-            ঐতিহ্য, সংস্কৃতি এবং সম্প্রদায়ের মিলনভূমি
+            ঐতিহ্য, সংস্কৃতি এবং চিন্তাধারার মিলনভূমি
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}

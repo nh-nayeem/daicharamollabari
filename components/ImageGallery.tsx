@@ -3,10 +3,10 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useState } from 'react';
 
 const images = [
-  { src: '/mollabaridighi.jpg', title: 'বাড়ীর প্রাকৃতিক দৃশ্য' },
-  { src: '/mollabarikachari.png', title: 'ঐতিহ্যবাহী স্থাপনা' },
-  { src: '/village3.jpg', title: 'সামাজিক জীবন' },
-  { src: '/village4.jpg', title: 'কৃষি কার্যক্রম' },
+  { src: '/mollabaridighi.jpg', title: 'দীঘি' },
+  { src: '/mollabarikachari.png', title: 'কাচারি ঘর' },
+  { src: '/mollabarieid.jpg', title: 'ঈদ' },
+  { src: '/mollabarikhela.jpg', title: 'খেলা' },
 ];
 
 /**

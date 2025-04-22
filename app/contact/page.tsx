@@ -12,18 +12,19 @@ export default function Contact() {
               <div>
                 <h2 className="text-2xl font-semibold text-green-700 mb-4">ঠিকানা</h2>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  গ্রাম: মোল্লা বাড়ি<br />
-                  ডাকঘর: [ডাকঘরের নাম]<br />
-                  উপজেলা: [উপজেলার নাম]<br />
-                  জেলা: [জেলার নাম]
+                  গ্রাম: দায়চারা <br />
+                  ডাকঘর: দায়চারা<br />
+                  উপজেলা: ফরিদ্গঞ্জ<br />
+                  জেলা: চাঁদপুর
                 </p>
               </div>
               <div>
                 <h2 className="text-2xl font-semibold text-green-700 mb-4">যোগাযোগের মাধ্যম</h2>
                 <p className="text-gray-700 leading-relaxed">
-                  ফোন: [ফোন নম্বর]<br />
-                  ইমেইল: [ইমেইল ঠিকানা]<br />
-                  সামাজিক মাধ্যম: [সামাজিক মাধ্যমের লিংক]
+                  ডেভেলোপারঃ নাজমুল হাসান নাঈম <br />
+                  ফোন: ০১৬৪০৯২৭৫৫২ <br />
+                  ইমেইল: nh.nayeem06@gmail.com<br />
+                  সামাজিক মাধ্যম: fb.com/nh.nayeem06
                 </p>
               </div>
             </div>

@@ -3,10 +3,10 @@ import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
 
 const stats = [
-  { number: 100, suffix: '+', label: 'বছরের ঐতিহ্য' },
-  { number: 500, suffix: '+', label: 'পরিবারের বসবাস' },
-  { number: 5, suffix: 'k+', label: 'বাড়ীবাসী' },
-  { number: 20, suffix: '+', label: 'শিক্ষা প্রতিষ্ঠান' },
+  { number: 400, suffix: '+', label: 'বছরের ঐতিহ্য' },
+  { number: 200, suffix: '+', label: 'পরিবারের বসবাস' },
+  { number: 1, suffix: 'k+', label: 'বাড়ীবাসী' },
+  { number: 2, suffix: '+', label: 'শিক্ষা প্রতিষ্ঠান' },
 ];
 
 export default function StatsSection() {

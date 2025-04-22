@@ -169,6 +169,7 @@ const LayoutFlow = () => {
         border: '2px solid #E5E7EB',
       }}>
         <h1 style={{
+          textAlign: 'center',
           fontSize: '24px',
           fontWeight: '600',
           color: 'white',
@@ -177,6 +178,7 @@ const LayoutFlow = () => {
         }}>
           মোল্লা পরিবার
         </h1>
+        <h1> ( + এ ক্লিক করে বংশধারা দেখুন)</h1>
       </div>
       <ReactFlow
         nodes={nodes}
