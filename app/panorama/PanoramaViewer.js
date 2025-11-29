@@ -26,7 +26,7 @@ export default function PanoramaViewer() {
   
     // Set the first image after viewer is ready
     setTimeout(() => {
-        setImageToLoad("/panorama3.jpg");
+        setImageToLoad("/panorama1.jpg");
     }, 0);
   
     return () => {
@@ -74,19 +74,13 @@ export default function PanoramaViewer() {
           onClick={() => setImageToLoad("/panorama1.jpg")}
           className="bg-green-500 text-white px-4 py-2 rounded"
         >
-          Panorama 1
+          প্যানোরামা ১
         </button>
         <button
           onClick={() => setImageToLoad("/panorama2.jpg")}
           className="bg-green-500 text-white px-4 py-2 rounded"
         >
-          Panorama 2
-        </button>
-        <button
-          onClick={() => setImageToLoad("/panorama3.jpg")}
-          className="bg-green-500 text-white px-4 py-2 rounded"
-        >
-          Panorama 3
+          প্যানোরামা ২
         </button>
       </div>
     </div>
